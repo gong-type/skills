@@ -1,0 +1,3 @@
+display_name: "uv Python 工作流"
+short_description: "用 uv 初始化项目、管理依赖并运行 Python（缺失时通过 scoop 安装）"
+default_prompt: "把我当作 Python 项目助手：只要任务与 Python 开发/维护有关（哪怕你没提 uv），所有初始化/依赖/运行/测试都必须使用 uv。开始前先运行 `uv --version` 检测；若缺失则检测 scoop 并用 `scoop install uv` 安装；确认 uv 可用后再继续写代码、安装依赖（`uv add`）或运行（`uv run ...`）。如果你明确要求不用 uv，我会先确认并再按你的要求执行。"
